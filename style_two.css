@@ -22,10 +22,78 @@ body{
     z-index: 1;
     height: 400px;
     width: 75px;
-    background-color: blue;
+  
     bottom: 0;
     right: 60px;
     
+}
+
+.left-ear--outer{
+  background-color: white;
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  left: 10px;
+  top: -25px;
+
+}
+
+.left-ear--inner{
+    background-color: rgb(248, 32, 32);
+    border-radius: 90%;
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: -10px;
+}
+
+.right-ear-outer{
+  background-color: white;
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  top: -25px;
+}
+  
+  .right-ear--inner{
+      background-color: rgb(248, 32, 32);
+      border-radius: 90%;
+      width: 10px;
+      height: 30px;
+      position: absolute;
+      right: 15px;
+      top: -10px;
+  }
+
+  .head{
+      width: 70px;
+      height: 50px;
+      background: white;
+      border-radius: 100%;
+      position: absolute;
+      left: 3px;
+      right: 0;
+    }
+
+    .head__eye{
+        background-color: black;
+        border-radius: 100%;
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        top: 10px;
+    
+    }
+.head__eye--left{
+ left: 40px;
+}
+
+.head__eye--right{
+   right: 40px;
 }
 /*conejo dos*/
 .capa_dos{
@@ -80,7 +148,7 @@ body{
     bottom: 0;
     margin: 0 auto;
     width: 200px;
-    height: 250px;
+    height: 260px;
     background-color: teal;
     border-bottom-left-radius: 26px;
 }
@@ -113,7 +181,7 @@ body{
     bottom: 0;
     margin: 0 auto;
     width: 200px;
-    height: 140px;
+    height: 160px;
     background-color: rgb(64, 148, 15);
     border-bottom-right-radius: 26px;
 }
