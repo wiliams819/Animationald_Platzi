@@ -1,0 +1,17 @@
+/*propiedades para que cuente, sume y reste puntos trabajando con checkbox*/
+
+body{
+    counter-reset: game;
+}
+
+input:checked{
+    counter-increment: game;
+}
+
+.Score::after{
+    content: counter(game);
+}
+
+/*sin de las propiedades para contar*/
+
+/**/
