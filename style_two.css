@@ -38,7 +38,7 @@ body{
     left: 60px;
     
 }
-
+/*bloque de tierra uno*/
 .capa_tres{
     position: absolute;
     z-index: 3;
@@ -50,38 +50,107 @@ body{
     height: 380px;
     background-color: chartreuse;
 }
-
+/*conejo cuatro*/
 .capa_cuatro{
     position: absolute;
     z-index: 4;
+    height: 280px;
+    width: 75px;
+    background-color: olive;
+    bottom: 0;
+    left: 3px;
+    border-bottom-left-radius: 26px;
 }
-
+/*conejo cinco*/
 .capa_cinco{
     position: absolute;
     z-index: 5;
-}
+    height: 280px;
+    width: 75px;
+    background-color: red;
+    bottom: 0;
+    left: 100px;
 
+}
+/*bloque de tierra dos*/
 .capa_seis{
     position: absolute;
     z-index: 6;
+    left:0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+    background-color: teal;
+    border-bottom-left-radius: 26px;
 }
-
+/*conejo siete*/
 .capa_siete{
     position: absolute;
     z-index: 7;
+    height: 180px;
+    width: 75px;
+    background-color:purple;
+    bottom: 0;
+    right: 3px;
+    border-bottom-right-radius: 26px;
 }
-
+/*conejo ocho*/
 .capa_ocho{
     position: absolute;
     z-index: 8;
+    height: 180px;
+    width: 75px;
+    background-color: rgb(226, 86, 31);
+    bottom: 0;
+    right: 100px;
 }
-
+/*bloque de tierra 3*/
 .capa_nueve{
     position: absolute;
     z-index: 9;
+    right:0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 200px;
+    height: 140px;
+    background-color: rgb(64, 148, 15);
+    border-bottom-right-radius: 26px;
 }
 
 .capa_diez{
     position: absolute;
     z-index: 10;
+    height: 75px;
+    width: 100px;
+    background-color: rgb(255, 0, 255);
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 26px;
+}
+
+.capa_once{
+    position: absolute;
+    z-index: 11;
+    height: 75px;
+    width: 150px;
+    background-color: slategrey;
+    left: 100px;
+    right: 60px;
+    bottom: 0;
+   
+
+}
+
+.capa_doce{
+    position: absolute;
+    z-index: 12;
+    height: 75px;
+    width: 100px;
+    background-color: rgb(234, 0, 255);
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 26px;
+
+
 }
