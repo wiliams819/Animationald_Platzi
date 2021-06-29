@@ -8,7 +8,7 @@ input:checked{
     counter-increment: game;
 }
 
-.Score::after{
+h3::after{
     content: counter(game);
 }
 
